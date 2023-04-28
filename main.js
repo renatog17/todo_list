@@ -5,6 +5,8 @@ if(JSON.parse(localStorage.getItem('tasks')).length >0){
     tarefas_from_localStorage.forEach(element => {
         criarTask(element)
     });
+}else{
+    localStorage.setItem('tasks', "[]")
 }
 
 //console.log(JSON.parse(localStorage.getItem('tasks')).length)
