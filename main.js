@@ -1,12 +1,14 @@
 let tasks = document.getElementById('tasks')
 let tarefas = []
+console.log(JSON.parse(localStorage.getItem('tasks')))
+if(JSON.parse(localStorage.getItem('tasks')==null)){
+    localStorage.setItem('tasks', "[]")
+}
 if(JSON.parse(localStorage.getItem('tasks')).length >0){
     tarefas_from_localStorage = JSON.parse(localStorage.getItem('tasks'))
     tarefas_from_localStorage.forEach(element => {
         criarTask(element)
     });
-}else{
-    localStorage.setItem('tasks', "[]")
 }
 
 //console.log(JSON.parse(localStorage.getItem('tasks')).length)
