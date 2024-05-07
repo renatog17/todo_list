@@ -1,25 +1,33 @@
-# Todo List
+# ToDo - List
 
-This is a Todo List project implemented using web technologies: JavaScript, CSS, and HTML. The purpose of this application is to allow users to create, manage, and track a list of tasks.
+ToDo-List é uma aplicação de lista de tarefas simples e eficaz, projetada para ajudá-lo a manter-se organizado.
 
-## Features
+[Acesse aqui](https://todo-list-indol-one.vercel.app/)
 
-- Add new tasks: Users can add a new task to the list by providing a title and a description.
-- Remove tasks: Users have the option to remove a task from the list if it is no longer needed.
-- Local storage: The application utilizes the browser's local storage feature to persist tasks, allowing users to resume their activities even after closing the browser.
+## Visão Geral
 
-## DOM Manipulation
+ToDo-List é uma aplicação minimalista que permite aos usuários criar e gerenciar suas listas de tarefas de forma fácil e rápida. Com uma interface intuitiva e sem complicações, é a ferramenta perfeita para quem busca simplicidade e praticidade no gerenciamento de tarefas.
 
-DOM manipulation is used to interact with HTML elements on the page. This includes dynamically creating elements, updating content, adding and removing classes, and handling events. JavaScript is responsible for this interaction, enabling the addition, removal, and updating of elements in the Todo List.
+## Funcionalidades Principais
 
-## Local Storage
+- **Adicionar Tarefas:** Crie novas tarefas rapidamente digitando na caixa de texto e pressionando Enter.
+- **Excluir Tarefas:** Remova tarefas não desejadas clicando no botão de exclusão ao lado de cada uma.
+- **Arrastar e Soltar:** Reorganize suas tarefas facilmente arrastando e soltando-as para a ordem desejada.
+- **Local Storage:** As tarefas são armazenadas localmente no navegador utilizando o Local Storage do HTML5, permitindo que suas listas persistam entre sessões.
 
-To ensure data persistence, the application utilizes local storage, a browser feature that allows data to be stored on the client-side. Tasks are stored locally, enabling users to access the list even after closing the browser or refreshing the page.
+## Tecnologias Utilizadas
 
-## Live Project
+- **HTML/CSS/JavaScript:** SimpleTodo foi construído utilizando tecnologias web padrão para garantir compatibilidade e acessibilidade.
+- **Drag and Drop:** A funcionalidade de arrastar e soltar é implementada para permitir uma experiência de usuário fluida e intuitiva.
+- **Local Storage:** Utiliza o Local Storage do HTML5 para armazenar as listas de tarefas do usuário localmente no navegador.
 
-You can access the live version of the project [here](https://todo-list-indol-one.vercel.app/).
+## Como Utilizar
 
-That's it! Enjoy using the Todo List application.
+1. **Adicionar Tarefa:** Digite o nome da tarefa na caixa de texto e pressione Enter para adicionar.
+2. **Marcar Concluído:** Clique no checkbox ao lado de uma tarefa para marcá-la como concluída.
+3. **Excluir Tarefa:** Clique no botão de exclusão ao lado de uma tarefa para removê-la da lista.
+4. **Arrastar e Soltar:** Arraste e solte as tarefas para reorganizá-las na ordem desejada.
 
-Note: This project is provided as-is without any warranty.
+## Contribuição
+
+Se você deseja contribuir para o desenvolvimento do SimpleTodo, sinta-se à vontade para enviar pull requests ou reportar problemas na [página do projeto no GitHub](link_para_repositório).
